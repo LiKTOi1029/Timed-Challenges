@@ -6,3 +6,11 @@ A full list of the challenges I do will be listed here, including the current ti
 I have done this before, however I wanted to touch on it again because I feel like I could have definitely done it a lot better than 
 when I first did it. Also a lot faster. So, here we are. This begun on the 21st of October, 2025. I have one hour to create hex movement. 
 The challenge has been completed in 13:32.93. Quite a fast one if I do say so myself
+
+Legend:
+BR = Bottom Right
+BL = Bottom Left
+TR = Top Right
+TL = Top Left
+D = Down
+U = Up
