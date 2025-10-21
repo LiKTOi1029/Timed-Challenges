@@ -3,11 +3,11 @@ TileTable = {{0,0,0},{0,0,0},{0,0,0}}
 
 function ShowMap()
 	for Number, Value in ipairs(TileTable) do
-		for Index = 1, TileTable[Number], 1 do
+		for Index = 1, #TileTable[Number], 1 do
 			if PlayerY == Number and PlayerX == Index then
 				io.write("1")
 			else
-				io.write(tostring(TileTable[Index]))
+				io.write(tostring(TileTable[Number][Index]))
 			end
 		end
 		io.write("\n")
@@ -36,7 +36,7 @@ end
 
 repeat
 	ShowMap()
-	io.write("Type TR, TL, BL, BR, U, or D to move your player")
+	io.write("Type TR, TL, BL, BR, U, or D to move your player: ")
 	local choice = io.read():gsub("\n", "")
-	Decider(choice)
+	if choice:upper() ~= "EXIT" then Decider(choice) end
 until choice:upper() == "EXIT"
