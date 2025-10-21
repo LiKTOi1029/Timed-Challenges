@@ -15,22 +15,43 @@ function ShowMap()
 end
 
 function Decider(choice)
-	if choice:upper() == "TL" then 
-		PlayerX = PlayerX - 1
-		PlayerY = PlayerY - 1
-	elseif choice:upper() == "TR" then
-		PlayerX = PlayerX + 1
-		PlayerY = PlayerY - 1
-	elseif choice:upper() == "BR" then
-		PlayerX = PlayerX + 1
-	elseif choice:upper() == "BL" then
-		PlayerX = PlayerX - 1
-	elseif choice:upper() == "U" then
-		PlayerY = PlayerY - 1
-	elseif choice:upper() == "D" then
-		PlayerY = PlayerY + 1
+	if PlayerX % 2 == 1 then
+		
+		if choice:upper() == "TL" then 
+			PlayerX = PlayerX - 1
+			PlayerY = PlayerY - 1
+		elseif choice:upper() == "TR" then
+			PlayerX = PlayerX + 1
+			PlayerY = PlayerY - 1
+		elseif choice:upper() == "BR" then
+			PlayerX = PlayerX + 1
+		elseif choice:upper() == "BL" then
+			PlayerX = PlayerX - 1
+		elseif choice:upper() == "U" then
+			PlayerY = PlayerY - 1
+		elseif choice:upper() == "D" then
+			PlayerY = PlayerY + 1
+		else
+			return print("Invalid Movement")
+		end
 	else
-		return print("Invalid Movement")
+		if choice:upper() == "TL" then 
+			PlayerX = PlayerX - 1
+		elseif choice:upper() == "TR" then
+			PlayerX = PlayerX + 1
+		elseif choice:upper() == "BR" then
+			PlayerX = PlayerX + 1
+			PlayerY = PlayerY + 1
+		elseif choice:upper() == "BL" then
+			PlayerX = PlayerX - 1
+			PlayerY = PlayerY + 1
+		elseif choice:upper() == "U" then
+			PlayerY = PlayerY - 1
+		elseif choice:upper() == "D" then
+			PlayerY = PlayerY + 1
+		else
+			return print("Invalid Movement")
+		end
 	end
 end
 
