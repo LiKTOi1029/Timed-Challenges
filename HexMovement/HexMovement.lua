@@ -1,5 +1,5 @@
 PlayerX, PlayerY = 2, 2
-TileTable = {{0,0,0},{0,0,0},{0,0,0}}
+TileTable = {{0,0,0,0,0,0},{0,0,0,0,0,0},{0,0,0,0,0,0}}
 
 function ShowMap()
 	for Number, Value in ipairs(TileTable) do
