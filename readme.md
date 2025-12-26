@@ -19,7 +19,7 @@ U = Up
 
 This is a simple game where objects are falling from the sky and you have to dodge them. This will not use any sprites 
 as currently I am just practicing for when I want to make a pseudo3d game engine on a timer, something similar to 
-Road of The Dead 1 and 2.\
+Road of The Dead 1 and 2. The challenge hasn't started yet\
 \
 Legend:\
 Left Arrow Key = Move Left\
