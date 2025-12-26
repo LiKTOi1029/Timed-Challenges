@@ -17,12 +17,14 @@ U = Up
 
 ### Dodging Game
 
-This is a simple game where objects are falling from the sky and you have to dodge them. This will not use any sprites 
+This is a simple game where there are blue obstacles and red mobs coming and you have to dodge them. This will not use any sprites 
 as currently I am just practicing for when I want to make a pseudo3d game engine on a timer, something similar to 
-Road of The Dead 1 and 2. The challenge hasn't started yet\
+Road of The Dead 1 and 2. The challenge was completed in 1:56:09.33. I will not add any graphics to this prototype, it 
+is what it is.\
 \
 Legend:\
 Left Arrow Key = Move Left\
 Right Arrow Key = Move Right\
 Up Arrow Key = Move Up\
-Down Arrow Key = Move Down
+Down Arrow Key = Move Down\
+G = Restart, only when dead
