@@ -28,3 +28,8 @@ Right Arrow Key = Move Right\
 Up Arrow Key = Move Up\
 Down Arrow Key = Move Down\
 G = Restart, only when dead
+
+### Hexagon Creator
+
+This is a script that mathematically creates a hexagonal shape on the screen. It is purely visual and has no function 
+other than a proof of concept. The challenge has not begun yet.
