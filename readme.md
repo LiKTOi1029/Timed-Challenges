@@ -32,5 +32,5 @@ G = Restart, only when dead
 ### Hexagon Creator
 
 This is a script that mathematically creates a hexagonal shape on the screen. It is purely visual and has no function 
-other than a proof of concept. The challenge challenge has begun on December 28, 2025. The challenge has been completed 
-in 40:21.34. It was completed on the same day it started.
+other than a proof of concept. The challenge has begun on December 28, 2025. The challenge has been completed in 40:21.34. 
+It was completed on the same day it started.
