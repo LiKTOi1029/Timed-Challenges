@@ -14,6 +14,7 @@ We can use this knowledge to obtain each of the angles individual Cosine and Sin
 useful later.\
 \
 i = 60\
+PI = math.pi\
 \
 Cos(i / PI/180) -- Lua takes values in radians, not degrees, therefore we must do the conversion\
 Sin(i / PI/180) -- For both Sine and Cosine, of course\
