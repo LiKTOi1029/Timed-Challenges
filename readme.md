@@ -39,4 +39,4 @@ It was completed on the same day it started.
 
 This is a continuation of the Hexagon Creator script, but instead of creating a single hexagon, I aim to make a whole map 
 of them instead. This is also going to be entirely visual without any inputs. In similer theme, I won't use any sprites. 
-Only math.
+Only math. This challenge has not begun yet.
